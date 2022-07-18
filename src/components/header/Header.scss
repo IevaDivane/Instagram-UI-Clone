@@ -1,0 +1,61 @@
+.component-header{
+  margin-top: 9px;
+  max-width: 1920px;
+  width: 100%;
+  border-bottom: 1px solid #DBDBDB;
+  display: flex;
+  justify-content: center;
+}
+
+.header-links{
+  display: flex;
+}
+
+.header-links__icons{
+  display: flex;
+}
+
+.logo{
+  width: 103px;
+  height: 29px;
+  margin-right: 257px;
+}
+
+.input{
+  width: 215px;
+  height: 28px;
+  border: 1px solid #DBDBDB;
+  border-radius: 3px;
+  color:#8E8E8E;
+  margin: 4px 94px;
+}
+
+.search-input{
+  margin:4px 72px;
+  display: flex;
+  width: 72px;
+  height: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.search-input img{
+  padding: 4px 6px 4px 0;
+  gap: 10px;
+  width: 16px;
+  height: 18px;
+}
+
+.header-links__icons{
+  display: flex;
+  gap: 22px;
+  padding: 7px 24px;
+}
+
+.icon{
+  width: 22px;
+  height: 22px;
+}

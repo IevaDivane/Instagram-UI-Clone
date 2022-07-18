@@ -1,0 +1,160 @@
+
+.post{
+  display: grid;
+}
+
+.post__header{
+  display: flex;
+  border: 1px solid #DBDBDB;
+  padding: 9px 16px 8px 16px;
+  justify-content: space-between;
+}
+
+.like-share-comment-save{
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 16px 16px 24px;
+  border-left: 1px solid #DBDBDB;
+  border-right: 1px solid #DBDBDB;
+}
+
+.post-info{
+  display: grid;
+}
+
+.add-comment{
+  display: flex;
+  border-bottom: 1px solid #DBDBDB;
+  border-left: 1px solid #DBDBDB;
+  border-right: 1px solid #DBDBDB;
+  padding: 14px 16px;
+  justify-content: space-between;
+}
+
+
+.post__header img {
+  width: 42px;
+  height: 42px;
+}
+
+.post__header span{
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: lowercase;
+  color: #262626;
+  padding: 10px 0 10px 14px;
+  gap: 10px;
+}
+
+.more-img{
+
+}
+
+.post__header-img-username{
+  display: flex;
+  align-items: center;
+}
+
+.like-share-comment{
+  display: flex;
+  gap: 16px;
+}
+
+.like-share-comment-save img{
+  width: 24px;
+  height: 24px;
+}
+
+.post-info{
+  padding-left: 16px;
+  padding-bottom:16px ;
+  border-bottom: 1px solid #DBDBDB;
+  border-left: 1px solid #DBDBDB;
+  border-right: 1px solid #DBDBDB;
+}
+
+.likes{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: lowercase;
+  color: #262626;
+}
+
+.username{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #262626;
+  padding-bottom: 4px;
+}
+
+.user-comment{
+  font-weight: 400;
+  padding-left: 7px;
+}
+
+
+.btn-more{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #8E8E8E;
+  border:none;
+  background:none;
+}
+
+.comments-view-all{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #8E8E8E;
+  padding-bottom: 4px;
+}
+
+.posted{
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: #8E8E8E;
+}
+
+.add-comment__emoji-input{
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.comment-emoji{
+  width: 24px;
+  height: 24px;
+}
+
+.comment-input{
+  border:none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.comment-input::placeholder{
+  color: #262626;
+}
+
+.add-comment__button{
+  border:none;
+  background: none;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #0095F6;
+}
+
+.post__username{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+}
