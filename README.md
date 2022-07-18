@@ -1,3 +1,7 @@
+## Project is hosted on netlify - https://62d52bf744bb7b1cb3aad6db--kaleidoscopic-crisp-4bf667.netlify.app/
+
+I took design from figma - https://www.figma.com/community/file/1039921953318471355
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
