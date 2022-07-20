@@ -7,14 +7,11 @@ const Stories = () => {
   const a = 1 + 2;
   return (
     <div className="carousel">
-      <div>
-        <img src={storyImg} alt="story" />
-        <span>your story</span>
-      </div>
-      {profile.map(({ id, imgSrc, username }) => (
-        <div key={id}>
-          <img src={imgSrc} alt={username} />
-          <span>{username}</span>
+      {profile.filter(({ storyAdded }) => storyAdded).map(({ id, imgSrc, username }) => (
+        <div key={id} className="carousel__story">
+          <img src={imgSrc} alt={username} className="carousel__image" />
+          {id === 1 ? <span>your story</span>
+            : <span>{username}</span> }
         </div>
       ))}
 

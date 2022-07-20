@@ -41,13 +41,8 @@
   font-size: 14px;
   line-height: 18px;
   text-transform: lowercase;
-  color: #262626;
   padding: 10px 0 10px 14px;
   gap: 10px;
-}
-
-.more-img{
-
 }
 
 .post__header-img-username{
@@ -78,14 +73,12 @@
   font-size: 14px;
   line-height: 18px;
   text-transform: lowercase;
-  color: #262626;
 }
 
 .username{
   font-weight: 600;
   font-size: 14px;
   line-height: 18px;
-  color: #262626;
   padding-bottom: 4px;
 }
 
@@ -137,6 +130,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
+  outline: none;
 }
 
 .comment-input::placeholder{
@@ -157,4 +151,5 @@
   font-weight: 600;
   font-size: 14px;
   line-height: 18px;
+  cursor: pointer;
 }

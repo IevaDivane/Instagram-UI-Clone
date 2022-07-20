@@ -8,10 +8,15 @@
   padding: 18px 0 12px 27px;
 
 }
+.carousel__story{
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 
-.carousel img{
-  width: auto;
+.carousel__image{
+  //width: auto;
   height: 66px;
+  //width: 66px;
 }
 
 .carousel span{
@@ -20,5 +25,7 @@
   text-align: center;
   letter-spacing: 0.12px;
   text-transform: lowercase;
-  color: #262626;
+  Width :74px;
+  Height: 16px;
+
 }

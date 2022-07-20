@@ -25,6 +25,17 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
+  display: flex;
+  gap:46px;
+  justify-content: space-between;
+}
+
+.messenger__header select {
+  appearance: none;
+  background: url(../../images/arrow.png) 96% / 15% no-repeat ;
+  background-size: 20px;
+  width: 137px;
+  margin-left: 55px;
 }
 
 .messenger__header img{
@@ -43,7 +54,7 @@
   padding-top: 16px;
 }
 .messenger__box-right{
-  display: flex;
+  display: grid;
   align-items: center;
   justify-content: center;
   border: 1px solid #DBDBDB;
@@ -53,6 +64,7 @@
 
 .messenger__box-right-box{
   display: grid;
+  justify-items: center;
 }
 
 .messenger__box-right-img{
@@ -94,6 +106,7 @@
   font-size: 14px;
   line-height: 11px;
   color: #8E8E8E;
+  padding-top: 8px;
 }
 
 .messenger__box-left-profiles-text-username{
@@ -104,4 +117,5 @@
 
 .messenger__box-left-profiles-text{
   margin-top: 8px;
+
 }
